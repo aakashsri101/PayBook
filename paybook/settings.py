@@ -29,7 +29,7 @@ SECRET_KEY = '75du%41ogr$@i%k*tizrsh)*p4g@7+nv4=#ovtz9kv=qsic#&('
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['3.218.249.163' ]
 
 
 # Application definition
@@ -103,10 +103,10 @@ WSGI_APPLICATION = 'paybook.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql', 
-        'NAME': 'aka',
-        'USER': 'root',
-        'PASSWORD': 'Aakash1@',
-        'HOST': 'localhost',   # Or an IP Address that your DB is hosted on
+        'NAME': 'newproject',
+        'USER': 'admin',
+        'PASSWORD': 'maybhatti',
+        'HOST': 'paybook.c7q9oax6dfqb.us-east-1.rds.amazonaws.com',   # Or an IP Address that your DB is hosted on
         'PORT': '3306',
     }
 }
