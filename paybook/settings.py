@@ -104,9 +104,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql', 
         'NAME': 'newproject',
-        'USER': 'admin',
-        'PASSWORD': 'maybhatti',
-        'HOST': 'paybook.c7q9oax6dfqb.us-east-1.rds.amazonaws.com',   # Or an IP Address that your DB is hosted on
+        'USER': 'username',
+        'PASSWORD': 'Password',
+        'HOST': 'host',   # Or an IP Address that your DB is hosted on
         'PORT': '3306',
     }
 }
